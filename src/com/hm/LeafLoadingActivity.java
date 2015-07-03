@@ -59,7 +59,7 @@ public class LeafLoadingActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.leaf_loading_layout);
         initViews();
-        mHandler.sendEmptyMessageDelayed(REFRESH_PROGRESS, 3000);
+        mHandler.sendEmptyMessageDelayed(REFRESH_PROGRESS, 5000);
     }
 
     private void initViews() {
